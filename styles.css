@@ -1,0 +1,321 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    background-color: aqua;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: left;
+    align-items: center;
+}
+
+nav a {
+    background-color: yellow;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-size: 1.2rem;
+}
+
+.logo {
+    background-color: honeydew;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.logo a {
+    background-color: honeydew;
+    text-align: center;
+    padding: 0.7rem;
+    border: 2px solid black;
+    margin: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.headerHomepage {
+    background-color: cornflowerblue;
+    padding: 6rem;
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto; 
+     /*Nur bei Block Elementen, margin auto positioniert element in der Mitte.  */
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 12rem;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.headerSimplePage {
+    background-color: hotpink;
+    padding: 12rem 4rem 2rem 4rem;
+}
+
+.simplePage {
+    background-color: khaki;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    font-size: 5rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+header p {
+    background-color: lightgreen;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+
+.textEm {
+    font-weight: bold;
+}
+
+
+section {
+    padding: 2rem;
+}
+
+.homepageHero {
+    background-color: darkgrey;
+}
+
+.heroSection {
+    background-color: darkkhaki;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.heroSectionRight {
+    background-color: darkkhaki;
+    margin-left: auto;
+    width: 20rem;
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.heroSectionLeft {
+    background-color: darkkhaki;
+    margin-right: auto;
+    width: 20rem;
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.homepageAssortment {
+    display: flex;
+    background-color: lightblue;
+    padding: 2rem;
+    }
+
+.homepageAssortmentSection {
+    width: 33%;
+    border: 3px solid black;
+}
+
+.homepageAssortmentSection h3 {
+    text-align: center;
+}
+
+.homepageAssortmentSection ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+.homepageAssortmentSection li {
+    text-align: center;
+}
+
+.h2Middle {
+    background-color: lightsalmon;
+    padding: 4rem 4rem 2rem 4rem;
+    text-align: center;
+}
+
+.citation {
+    display: flex;
+    padding: 2rem;
+    background-color: mediumpurple;
+}
+
+.citationSection {
+    width: 70%;
+    background-color: lightslategray;
+}
+
+blockquote {
+    margin-left: 0;
+}
+
+.author {
+    width: 30%;
+    background-color: mediumblue;
+    }
+
+
+.assortment {
+    background-color: navajowhite;
+}
+
+.assortmentSection button {
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: red;
+}
+
+
+.bread {
+    background-color: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadSection {
+    width: 20%;
+    border: 3px solid black;
+}
+
+.breadSection ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+    background-color: lightslategrey;
+}
+
+.breadSection H3 {
+    text-align: center;
+    background-color: mediumaquamarine;
+}
+
+.breadSection li {
+    text-align: center;
+    background-color: magenta;
+}
+
+.price {
+    font-weight: bold;
+    background-color: mintcream;
+}
+
+.breadSection img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mediumblue;
+}
+
+.shop {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.shop img {
+    width: 100%;
+    height: auto;
+}
+.shop p {
+    margin: 0;
+}
+
+.shopSectionLeft {
+    background-color: skyblue;
+    width: 50%;
+}
+
+.shopSectionRight {
+    background-color: thistle;
+    width: 50%;
+}
+
+.text {
+    padding: 2rem;
+}
+
+.textSection {
+    column-width: 400px;
+    column-gap: 3rem;
+}
+
+.faqSection {
+    background-color: wheat;
+}
+
+summary {
+    line-height: 2;
+    background-color: thistle;
+}
+
+
+.contact {
+    display: flex;
+    background-color: lightskyblue;
+    padding: 2rem;
+    }
+
+.contactSectionLeft {
+    background-color: lightyellow;
+    width:50%
+}
+
+.contactSectionRight {
+    background-color:greenyellow;
+    width: 50%;
+}
+
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 2rem;
+    background-color: aqua;
+    margin-top: 0;
+    margin-bottom: 0;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: oldlace;
+    
+}
+
+
+
+@media screen and (max-width: 530px) {
+    main {
+        display: block;
+      }
+      article {
+        width: auto;
+      }
+    } 
